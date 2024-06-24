@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bounna Pizza</title>
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <!-- logo -->
+        <a class="logo" href="#">Bounna Pizza</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre nós</a></li>
+            <li><a class="title" href="#menu">Cardápio</a></li>
+            <li><a class="title" href="#order">Reserve seu pedido</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+          <div class="image">
+            <img
+              src="/assets/Fundo Header.png"
+              alt="fundo header"
+            />
+          </div>
+          <div class="text" id="about">
+            <h2 class="title">Um pouquinho da nossa história</h2>
+            <img src="/assets/juan-manuel-nunez-mendez-_CaLXVUfD8g-unsplash 1.png" alt="massa-pizza"/>
+            <p>
+              Somos uma pizzaria atuante no mercado da zona Sul com mais de 20 anos de tradição. O principal objetivo sempre foi proporcionar a união entre famílias que se juntam para comer, com ingredientes clássicos e de ótima qualidade. A Buonna  preza pelo tradicional, onde ter a proximidade de seus clientes é um diferencial em seu cardápio.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+      <section class="section" id="menu">
+          <div class="image">
+            <img
+              src="/assets/pizza2.png"
+              alt="pizza-2"
+            />
+        </div>
+
+        <div class="header2" >
+          <h1>Cardápio</h1>
+          <h1>Pizzas</h1>
+          </div>
+              <section>
+                  <div class="menu" id="cardapio">
+                  <div class="container">
+                  <h4>Calabresa</h4>
+                  <p>Molho, Mussarela, Calabresa, Cebola, Azeitona e Orégano <br>
+                      R$ 49.00</br></p>
+                  <img src="/assets/194-1941449_buffalo-pizza-hd-png-download 1.png"  >
+                  </div>
+                  <div class="container">
+                  <h4>Quatro Queijos</h4>
+                  <p>Molho, Mussarela, Provolone, Parmesão, Gorgonzola, Tomate, Azeitona e Orégano <br>
+                      R$ 52,00</br></p>
+                  <img src="/assets/867-8672069_4-cheese-pizza-4-cheese-pizza-png 1.png">
+                  </div>
+                  <div class="container">
+                  <h4>Italiana</h4>
+                  <p>Molho, Mussarela, Catupiry, Salaminho, Azeitona e Orégano <br>
+                      R$ 59,99</br></p>
+                  <img src="/assets/529-5293818_chicken-tikka-pizza-png-transparent-png 1.png"  >
+                  </div>
+                  <div class="container">
+                  <h4>Presunto</h4>
+                  <p>Molho, Mussarela, Prersunto, Tomate, Azeitona e Orégano <br>
+                      R$ 51,00</br></p>
+                  <img src="Assets/presunto1.png" >
+                  </div>
+              </div>
+              </section>
+
+              <div class="header2" >
+                <h1>Bebidas</h1>
+                </div>
+            </div>
+
+                <section>
+                    <div class="menu" >
+                    <div class="container">
+                    <h4>Coca-Cola 1,5L</h4>
+                    <p>R$ 7.00</p>
+                    <img src="Assets/cocameio.jpeg"  class="coca1">
+                    </div>
+        
+                    <div class="container">
+                    <h4>Coca-Cola 2L</h4>
+                    <p>R$ 10,00</p>
+                    <img src="Assets/cocadois.jpeg" class="coca2">
+                </div>
+        
+                    <div class="container">
+                    <h4>Coca-Cola Lata</h4>
+                    <p>R$ 4,00</p>
+                    <img src="Assets/cocalata.jpeg" class="cocalata">
+                </div>
+        
+                    <div class="container">
+                    <h4>Fanta Laranja 2L</h4>
+                    <p>R$ 7,00</p>
+                    <img src="Assets/fantadois.jpeg" class="fanta2">
+                </div>
+        
+                    <div class="container">
+                    <h4>Guaraná Antarctica 2L</h4>
+                    <p>R$ 10,00</p>
+                    <img src="Assets/guaranadois.jpeg" class="guarana2">
+                </div>
+        
+                    <div class="container">
+                    <h4>Sprite 2L</h4>
+                    <p>R$ 7,00</p>
+                    <img src="Assets/spritedois.jpeg" class="sprite2">
+                </div>
+                </div>
+            </div>
+                </section>
+              <div class="container">
+                <div class="reserve" id="order">
+                  
+                  <form id="orderForm">
+                    <div class="card">
+                      <h1>Reserve o seu pedido!</h1>
+                
+                      <div class="input-group">
+                        <label for="pizzaSelect">Escolha a Pizza:</label>
+                        <select id="pizzaSelect" name="pizza">
+                          <option value="calabresa">Calabresa</option>
+                          <option value="quatro_queijos">Quatro Queijos</option>
+                          <option value="italiana">Italiana</option>
+                          <option value="presunto">Presunto</option>
+                        </select>
+                      </div>
+                
+                      <div class="input-group">
+                        <label for="bebidaSelect">Escolha a Bebida:</label>
+                        <select id="bebidaSelect" name="bebida">
+                          <option value="CocaMeio">Coca 1,5L</option>
+                          <option value="CocaDois">Coca 2L</option>
+                          <option value="CocaLata">Coca Lata</option>
+                          <option value="FantaDois">Fanta 2L</option>
+                          <option value="GuaranaDois">Guaraná 2L</option>
+                          <option value="SpriteDois">Sprite 2L</option>
+                        </select>
+                      </div>
+                   
+                      <div class="botao-reserve">
+                        <button type="submit" class="reservar-btn">Reservar</button>
+                      </div>
+                    </div>
+                    
+                  </form>
+                
+                </div>
+                <div id="orderDetails" class="order-details">
+                  <h2>Detalhes do Pedido</h2>
+                  <p>Pizza: <span id="pizzaDetail">Calabresa</span></p>
+                  <p>Bebida: <span id="bebidaDetail">Coca-Cola 1,5L</span></p>
+                  <p>Tempo de espera: <span id="tempoEsperaDetail">30 minutos</span></p>
+                  <p>Valor total: R$ <span id="valorTotalDetail">60,00</span></p>
+                </div>
+                </div>
+                
+                
+        </div>
+      </section>
+
+      <div class="footer"  id="contact">
+        <h2>Contato</h2>
+        <h3>Instagram @buonnapizza</h3>
+        <h3>LinkedIn Buonna Pizza</h3>
+        <h3>WhatsApp (11)97777-7777</h3>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
